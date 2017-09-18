@@ -18,8 +18,7 @@ function logIP()
     {
         fputs($log, "Logged IP address: $ip - Date logged: $date<br>");
     }
-    else fputs($log, "Logged IP address: $ip - Date logged: $date\
-");
+    else fputs($log, "Logged IP address: $ip - Date logged: $date");
 
     fclose($log);
 }
@@ -28,3 +27,4 @@ logIp();
 
 
 ?>
+
